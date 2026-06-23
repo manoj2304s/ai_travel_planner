@@ -1,6 +1,6 @@
 # AI Travel Planner
 
-Trao is a full-stack AI-powered travel planning web application built as a technical assessment. Users can register, log in, and generate complete day-by-day travel itineraries using an LLM, along with budget estimates and hotel suggestions.
+It is a full-stack AI-powered travel planning web application built as a technical assessment. Users can register, log in, and generate complete day-by-day travel itineraries using an LLM, along with budget estimates and hotel suggestions.
 
 ---
 
