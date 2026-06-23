@@ -12,7 +12,7 @@ It is a full-stack AI-powered travel planning web application built as a technic
 | Backend | Node.js, Express.js, TypeScript |
 | Database | MongoDB (Atlas) |
 | Authentication | JWT + bcryptjs |
-| AI | Google Gemini 2.5 Flash |
+| AI | Google Gemini 3.5 Flash |
 | Deployment | Vercel (frontend), Render (backend) |
 
 ---
@@ -114,7 +114,7 @@ Visit `http://localhost:3000`
 
 ## AI Agent Design
 
-- Uses **Google Gemini 2.5 Flash** via the `@google/genai` SDK
+- Uses **Google Gemini 3.5 Flash** via the `@google/genai` SDK
 - On trip creation, a single prompt generates the full itinerary, budget estimate, and hotel suggestions in one API call — avoiding multiple round trips
 - The prompt enforces strict JSON output with a defined schema, which is parsed and validated before saving to MongoDB
 - For day regeneration, the prompt includes all other days' activities as context, preventing the AI from repeating activities already planned — this is the core of the **Smart Regenerate** creative feature
